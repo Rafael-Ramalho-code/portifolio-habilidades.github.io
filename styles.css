@@ -1,0 +1,248 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(31, 68, 102);
+}
+
+header{
+    background-color: rgb(69, 126, 165);
+    color: aliceblue;
+    min-height: 4rem;
+    padding: 2rem;
+}
+
+strong{
+    text-decoration: underline;
+}
+
+header p{
+    padding: 1.3rem;
+    font-size: 1.2rem;
+}
+
+header a{
+    color: aliceblue;
+    display: inline;
+    font-size: large;
+    margin: 1.5rem;
+    transition: 0.4s;
+}
+
+header a:hover{
+    transition: 0.4s;
+    text-shadow: 2px 2px 2px rgb(152, 209, 245);
+    font-size: larger;
+}
+
+header nav{
+    text-align: right;
+    margin-right: 15rem;
+}
+
+#about-me{
+    background-color: rgb(69, 126, 165);
+    width: 400px;
+    height: 400px;
+    padding: 2rem;
+    margin: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 44rem;
+    color: aliceblue;
+    border-radius: 14px;
+    box-shadow: 4px 4px 4px rgb(206, 237, 255);
+}
+
+#about-me h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px rgb(183, 229, 255);
+    font-weight: 100;
+}
+
+#about-me p{
+    font-size: 1.5rem;
+}
+
+.img{
+    margin-left: 50rem;
+    margin-top: 3rem;
+}
+
+.img img{
+    border-radius: 50px;
+    box-shadow: 1px 1px 1px  rgb(255, 255, 255);
+}
+
+#table{
+    margin-top: 25rem;
+    background-color: rgb(69, 126, 165);
+    width: 600px;
+    height: 400px;
+    padding: 3rem;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 36rem;
+    color: aliceblue;
+    box-shadow: 3px 3px 3px white;
+}
+
+#table h1{
+    text-decoration: underline;
+    margin-bottom: 4rem;
+    font-size: 3rem;
+}
+
+#table table{
+    border-collapse: collapse;
+    
+}
+
+#table th{
+    border: 2px solid #ddd;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+
+
+#table table td{
+    
+    border: 2px solid #ddd;
+    padding: 3px;
+    border-radius: 10px;
+
+}
+
+#table table tr{
+    padding: 6rem;
+    font-weight: 600;
+}
+
+#form-container {
+    background-color: rgb(69, 126, 165);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px  2px 2px rgb(255, 255, 255);
+    width: 800%;
+    max-width: 500px;
+    margin-left: 41rem;
+    margin-top: 25rem;
+}
+
+#form-container h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 0;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+#form-container p {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #ffffff;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.form-group {
+    margin-bottom: 1.8rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.6rem;
+    font-weight: 700;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 4px;
+    box-sizing: border-box; /* Garante que padding e borda não aumentem a largura */
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #ffffff;
+    outline: none;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.329);
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.button-group button {
+    padding: 0.8rem 1.3rem;
+    border: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 600;
+    transition: background-color 0.4s;
+}
+
+.button-group button[type="submit"] {
+    background-color: #000000;
+    color: #fff;
+}
+
+.button-group button[type="submit"]:hover {
+    background-color: #b4b2b2;
+}
+
+.button-group button[type="reset"] {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.button-group button[type="reset"]:hover {
+    background-color: #aaacad;
+}
+
+label{
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+
+
+.fieldset legend{
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+
+.fieldset{
+    padding: 1.3rem;
+    text-align: center;
+    margin: 2rem;
+    gap: 2rem;
+}
+
+footer{
+    background-color: rgb(69, 126, 165);
+    min-height: 2rem;
+    padding: 1.1rem;
+    margin-top: 10rem;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.2rem;
+    gap: 2rem;
+}
+
+

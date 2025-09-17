@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portifólio Pessoal</title>
+</head>
+<body>
+    <header>
+        <div>
+            <nav>
+                <a href="#form-container">Contato</a>
+                <a href="#table">Hobbies</a>
+                <a href="#about-me">Sobre mim</a>
+            </nav>
+        </div>
+        <h1>Olá, eu sou <strong>Rafael Brito.</strong></h1>
+        <p>Bem vindo ao meu portifólio. Aqui você encontrará um pouco mais sobre mim e o que gosto de fazer no meu espaço pessoal e de trabalho.</p>
+    </header>
+    <section class="img"><img src="Perfil.jpeg" alt="Perfil" width="250" height="440"></section>
+    <section id="about-me">
+        <h1>Sobre mim</h1>
+        <p>Sou um estudante e entusiasta de programação de 19 anos. Estou cursando Ciências da Computação em faculdade federal e realizando curso avulso de python no Senach-RJ. Focado em aprender e aprimorar minhas habilidades de programção. Adoro a área de programar jogos e back-end por meio de banco de dados.</p>
+    </section>
+
+    <section id="table">
+        <h1>Hobbies</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hobby</th>
+                    <th>Tempo de prática</th>
+                    <th>Por que gosto?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Futebol</td>
+                    <td>Desde a infância</td>
+                    <td>Sempre gostei de esportes, porém futebol sempre foi minha maior paixão.</td>
+                </tr>
+                <tr>
+                    <td>Videogame</td>
+                    <td>10 anos</td>
+                    <td>Me apaixonei pelo videogame com meu primeiro jogo The Witcher.</td>
+                </tr>
+                <tr>
+                    <td>Programação</td>
+                    <td>1 ano e meio</td>
+                    <td>Sempre mexi muito com computadores e a área de programação sempre me chamou atençao então decidi investir nela.</td>
+                </tr>
+                <tr>
+                    <td>Tocar piano</td>
+                    <td>Desde a infância</td>
+                    <td><video src="4554067-hd_1920_1080_30fps.mp4" width="200" height="100" controls></video></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="form-container">
+            <h2>Contato</h2>
+            <p>Preencha os campos abaixo para realizar o contato desejado.</p>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="name" name="nome" placeholder="Insira seu nome completo" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="seuemail@email" required>
+                </div>
+                <div class="form-group"></div>
+                <label for="telefone">Número de Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(99) 99999-9999" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" title="Formato: (99) 99999-9999" required>
+                <div class="form-group">
+                    <label for="assunto">Assunto:</label>
+                    <select name="assunto" id="assunto" required>
+                        <option value="">Selecione o assunto</option>
+                        <option value="atendimento">Atendimento</option>
+                        <option value="Cadastro">Profissional</option>
+                        <option value="Compras">Pessoal</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" rows="3" placeholder="Digite sua mensagem aqui..." required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="">
+                        Eu concordo com os termos de contato(obrigatório)
+                        <input type="checkbox" name="termos" required>
+                    </label>
+                </div>
+                <div class=fieldset>
+                    <fieldset>
+                        <legend>Qual sua opinião do site?</legend>
+                        <input type="radio" id="gostei" name="feedback" value="gostei" required>
+                        <label for="gostei">Gostei</label>
+                        <input type="radio" id="naoGostei" name="feedback" value="nao-gostei">
+                        <label for="naoGostei">Não Gostei</label>
+                    </fieldset>
+                </div>
+                <div class="button-group">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </section>
+        <footer>
+            <h3><ul>Contatos diretos:</ul></h3>
+            <p>WhatsApp: (99) 99999-9999</p>
+            <p>Email: rafaelramalho@gmail.com</p>
+            <p>&copy; Direitos reservados.</p>
+        </footer>
+</body>
+</html>
